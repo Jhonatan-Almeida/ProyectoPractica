@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Eliminar márgenes */
+    background-color:turquoise; /* Color de fondo */
+}
+
+h1 {
+    color: #333; /* Color del texto del encabezado */
+}
+
+button {
+    background-color:yellow; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    padding: 15px 32px; /* Espaciado del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+button:hover {
+    background-color: yellowgreen; /* Color al pasar el cursor */
+}
